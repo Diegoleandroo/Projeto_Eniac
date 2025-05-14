@@ -1,148 +1,156 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DIGITAL TECH</title>
-    <link rel="stylesheet" href="index.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DIGITAL TECH</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="css/style_rodape.css">
+  <link rel="stylesheet" href="css/style_cabecalho.css">
 </head>
+
 <body>
 
-    <main class="container">
+
+  <header class="cabecalho">
+    <nav class="cabecalho_menu">
+      <button class="menu_button"></button>
+    </nav>
+    <img class="cabecalho_logo" src="img/logo.png" />
+    <nav class="cabecalho_buscar">
+      <section class="campo_buscar">
+        <nav class="nav_busca">
+          <select class="lista_categoria" name="lista_categoria">
+            <option value="" disabled selected>Escolha uma categoria</option>
+            <option value="laptops">Laptops</option>
+            <option value="pc_gaming">PC Gaming</option>
+            <option value="headphones">Headphones</option>
+            <option value="monitors">Monitors</option>
+          </select>
+          <input class="input_busca" type="text" name="input_busca" placeholder="Pesquise por um produto..." />
+          <img class="lupa_icon" src="img/icone_lupa.png" />
+        </nav>
+      </section>
+    </nav>
+    <nav class="cabecalho_navicones">
+      <img class="suporte_icon" src="img/icone_suporte.png" />
+      <button class="cadastro_button">Cadastre-se</button>
+      <button class="login_button">Login</button>
+    </nav>
+  </header>
+
+  <main class="container">
 
 
-        <section class="form-imagem">
-            <img src="./img/cadastro.png" alt="">
-        </section>
+    <section class="form-imagem">
+      <img src="./img/cadastro.png" alt="">
+    </section>
 
 
-        <section class="form">
+    <section class="form">
 
-            <form action="#">
+      <form action="#">
 
-                <header class="form-header">
+        <header class="form-header">
 
-                    <section class="title">
+          <section class="title">
 
-                        <h1>Cadastro</h1>
-                        <p>junte-se a nós</p>
-
-
-                    </section>
-
-                </header>
+            <h1>Cadastro</h1>
+            <p>junte-se a nós</p>
 
 
-                <section class="input-group">
+          </section>
 
-                    <section class="input-box">
-                        <label for="yourname">Seu nome</label>
-                        <input id="yourname" type="text" name="yourname" placeholder="Digite seu nome:" required>
-                    </section>
-
-                    <section class="input-box">
-                        <label for="youremail">Endereço de E-mail</label>
-                        <input id="youremail" type="email" name="youremail" placeholder="Digite seu email:" required>
-                    </section>                    
+        </header>
 
 
-                    <section class="input-box">
-                        <label for="yoursenha">Senha</label>
-                        <input id="yoursenha" type="password" name="yoursenha" placeholder="Digite sua senha:" required>
-                    </section>
+        <section class="input-group">
 
-                   
-                    <section class="input-box">
-                        <label for="confirmasenha">Confirme sua senha</label>
-                        <input id="confirmasenha" type="password" name="confirmasenha" placeholder="Digite sua senha novamente:" required>
-                    </section>
+          <section class="input-box">
+            <label for="yourname">Seu nome</label>
+            <input id="yourname" type="text" name="yourname" placeholder="Digite seu nome:" required>
+          </section>
 
-                  
-                </section>
-
-
-                <button><a href="#" class="continue-button"> Registrar </a></button>
-
-                <p class="p-ultimo"> já usuário ? <a href="#">Login</a></p>
-
-
-            </form>
-            
-
-        </section>
-
-    </main>
-
-
-    <footer class="footer">
-
-        <section class="footer-container">
-            <address class="footer-col">
-              <h3>DIGITAL TECH SOLUTION - ECOMMERCE</h3>
-              <p>(XX) XX XXXXX-XXXX</p>
-              <p>CONTATO@DIGITALTECH.COM</p>
-            </address>
-            <section class="footer-social">
-              <a href="#"><img src="./img/twitter.png" alt="Twitter"></a>
-              <a href="#"><img src="./img/facebook.png" alt="Facebook"></a>
-              <a href="#"><img src="./img/instagram.png" alt="Instagram"></a>
-              <a href="#"><img src="./img/youtube.png" alt="YouTube"></a>
-            </section>
+          <section class="input-box">
+            <label for="youremail">Endereço de E-mail</label>
+            <input id="youremail" type="email" name="youremail" placeholder="Digite seu email:" required>
           </section>
 
 
-          <nav class="footer-col">
-            <h4>CATEGORIAS</h4>
-            <ul>
-              <li>Laptops</li>
-              <li>PC & Computers</li>
-              <li>Cell Phones</li>
-              <li>Tablets</li>
-              <li>Gaming & VR</li>
-              <li>Networks</li>
-              <li>Cameras</li>
-              <li>Sounds</li>
-              <li>Office</li>
-            </ul>
-          </nav>
+          <section class="input-box">
+            <label for="yoursenha">Senha</label>
+            <input id="yoursenha" type="password" name="yoursenha" placeholder="Digite sua senha:" required>
+          </section>
 
 
-          <nav class="footer-col">
-            <h4>NOSSA EMPRESA</h4>
-            <ul>
-              <li>About Swoo</li>
-              <li>Contact</li>
-              <li>Career</li>
-              <li>Blog</li>
-              <li>Sitemap</li>
-              <li>Store Locations</li>
-            </ul>
-          </nav>
-
-          <nav class="footer-col">
-            <h4>SUPORTE</h4>
-            <ul>
-              <li>Customer Service</li>
-              <li>Policy</li>
-              <li>Terms & Conditions</li>
-              <li>Track Order</li>
-              <li>FAQs</li>
-              <li>My Account</li>
-              <li>Product Support</li>
-            </ul>
-          </nav>
+          <section class="input-box">
+            <label for="confirmasenha">Confirme sua senha</label>
+            <input id="confirmasenha" type="password" name="confirmasenha" placeholder="Digite sua senha novamente:"
+              required>
+          </section>
 
 
+        </section>
+
+
+        <button><a href="#" class="continue-button"> Registrar </a></button>
+
+        <p class="p-ultimo"> já usuário ? <a href="#">Login</a></p>
+
+
+      </form>
+
+
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <section class="footer-columns">
+      <section>
+        <h4>DIGITAL TECH SOLUTION – ECOMMERCE</h4>
+        <p>(XX) XXX XXXXXXXX</p>
+        <p>contato@digitaltech.com</p>
+        <section class="social">
+          <span>📘</span>
+          <span>🐦</span>
+          <span>📸</span>
+        </section>
+      </section>
+      <section>
+        <h4>CATEGORIAS</h4>
+        <p>Laptops</p>
+        <p>Celulares</p>
+        <p>Tablets</p>
+      </section>
+      <section>
+        <h4>NOSSA EMPRESA</h4>
+        <p>Sobre</p>
+        <p>Contato</p>
+        <p>Carreiras</p>
+      </section>
+      <section>
+        <h4>SUPORTE</h4>
+        <p>Política</p>
+        <p>FAQs</p>
+      </section>
+    </section>
+    <section class="newsletter">
+      <p>Inscreva-se e ganhe 10% de desconto na sua primeira compra</p>
+      <input type="email" placeholder="Seu email" />
+      <button>Cadastrar-se</button>
+    </section>
+    <section class="copyright">
+      <p>&copy; 2025 Digital Tech Solution. Todos os direitos reservados.</p>
+    </section>
+  </footer>
 
 
 
 
 
 
-    </footer>
-
-
-
-    
 </body>
+
 </html>

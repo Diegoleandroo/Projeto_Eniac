@@ -12,16 +12,66 @@ body {
 
 .bloco-principal {
   display: flex;
+  flex-direction: column; /* Empilha tudo por padrão */
   background-color: white;
   padding: 2rem;
-  border-radius: 10px;
   gap: 2rem;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
-.formulario-section {
-  flex: 1;
+.linha-superior {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
+
+/* Lado a lado em telas maiores */
+@media (min-width: 992px) {
+  .linha-superior {
+    flex-direction: row;
+  }
+
+  .formulario-container,
+  .info-contato {
+    flex: 1;
+  }
+}
+
+
+/* Agrupa formulário e info lado a lado em telas grandes */
+@media (min-width: 992px) {
+  .bloco-principal {
+    flex-direction: column;
+  }
+
+  .topo-contato {
+    display: flex;
+    gap: 2rem;
+  }
+
+  .formulario-container,
+  .info-contato {
+    width: 100%;
+  }
+
+  .formulario-container,
+  .info-contato {
+    flex: 1;
+  }
+}
+
+.formulario-container,
+.info-contato,
+.mapa {
+  width: 100%;
+  max-width: 100%;
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
 
 .formulario-section h1 {
   font-size: 1.3rem;
@@ -77,9 +127,7 @@ button {
 }
 
 .info-contato {
-  flex: 1;
   background-color: #f3f6fd;
-  padding: 1.5rem;
   border-radius: 10px;
 }
 

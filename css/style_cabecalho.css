@@ -1,0 +1,135 @@
+.cabecalho{
+    display: flex;
+    height: 6vw;
+    width: 100%;
+    background-color: #edb928;
+    float: left;
+}
+
+.cabecalho_buscar{
+    width: 50%;
+}
+
+.campo_buscar{
+    background-clip: border-box;
+    margin-top: 1.2vw;
+    margin-bottom: 1.2vw;
+    height: 3.6vw;
+    width: 90%;
+    margin-inline: 5%;
+}
+
+.cabecalho_navicones{
+    width: 24%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.cabecalho_menu{
+    width: 15%;
+}
+
+.cabecalho_logo{
+    height: auto;
+    width: 11%;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    max-height: 6vw;
+}
+
+.menu_button{
+    width: 20%;
+    height: 3vw;
+    margin-top: 1.5vw;
+    margin-bottom: 1.5vw;
+    margin-inline: 37%;
+    background-image: url('../img/icone_menu.png');
+    background-size: cover;
+    border: none;
+    background-color: transparent;
+}
+
+.menu_button:hover{
+    cursor: pointer;
+}
+
+.nav_busca{
+    border: 2px solid transparent;
+    border-radius: 2vw;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: white;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.input_busca{
+    margin-left: 0;
+    padding: 0;
+    width: 50%;
+    height: 100%;
+    padding-inline: 1vw;
+    border: none;
+    font-size: 1.02vw;
+}
+
+.suporte_icon{
+    width: 15%;
+    height: auto;
+}
+
+.suporte_icon:hover{
+    cursor: pointer;
+}
+
+.cadastro_button{
+    width: 30%;
+    height: 2.5vw;
+    background-size: cover;
+    border: none;
+    background-color: #000;
+    color: white;
+    border-radius: 2.2vw;
+    font-size: 1.02vw;
+}
+
+.login_button{
+    width: 30%;
+    height: 2.5vw;
+    background-size: cover;
+    border: none;
+    background-color: white;
+    color: #000;
+    border-radius: 2.2vw;
+    font-size: 1.02vw;
+}
+
+.cadastro_button:hover{
+    cursor: pointer;
+}
+
+.login_button:hover{
+    cursor: pointer;
+}
+
+.lupa_icon{
+    width: 1.8vw;
+    height: 1.8vw;
+}
+
+.lupa_icon:hover{
+    cursor: pointer;
+}
+
+.lista_categoria{
+    border: none;
+    height: 100%;
+    font-size: 1.02vw;
+}
+
+.lista_categoria:hover{
+    cursor: pointer;
+}
