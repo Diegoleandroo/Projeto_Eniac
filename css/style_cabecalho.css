@@ -93,7 +93,8 @@
     background-color: #000;
     color: white;
     border-radius: 2.2vw;
-    font-size: 1.02vw;
+    /*font-size: 1.02vw;*/
+    font-size: 13px;
 }
 
 .login_button{
